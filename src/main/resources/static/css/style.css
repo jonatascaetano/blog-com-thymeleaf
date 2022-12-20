@@ -15,3 +15,17 @@ div.card {
 .breadcrumb {
     margin-top: 20px;
 }
+
+p.card-subtitle {
+    font-size: 0.8rem;
+}
+
+h4.card-title {
+    font-weight: bold;
+    color: black;
+    padding-top: 5px;
+}
+
+.card-body a {
+    text-decoration: none;
+}

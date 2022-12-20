@@ -1,0 +1,17 @@
+span .navbar-brand {
+    font-weight: bold;
+}
+
+#container {
+    width: 60%;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+div.card {
+    margin-top: 20px;
+}
+
+.breadcrumb {
+    margin-top: 20px;
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<html xmlns:th="https://www.thymeleaf.org/">
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +36,7 @@
                 <span th:text="${post.author}"></span>
                 <span th:text="${{post.date}}"></span>
                </p>
-               <a href="#">
+               <a th:href="@{'/posts/' + ${post.id}}" >  
                 <h4 class="card-title">
                     <span th:text="${post.title}"></span>
                 </h4>

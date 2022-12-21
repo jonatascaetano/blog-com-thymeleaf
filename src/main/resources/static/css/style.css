@@ -1,0 +1,57 @@
+span .navbar-brand {
+    font-weight: bold;
+}
+
+#container {
+    width: 60%;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+div.card {
+    margin-top: 20px;
+}
+
+.breadcrumb {
+    margin-top: 20px;
+}
+
+p.card-subtitle {
+    font-size: 0.8rem;
+}
+
+h4.card-title {
+    font-weight: bold;
+    color: black;
+    padding-top: 5px;
+}
+
+h4.card-title:hover {
+    text-decoration: underline;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-title h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+article p.card-text {
+    margin-top: 40px;
+}
+
+form div.form-group input {
+    margin-bottom: 5px;
+} 
+
+form button.btn {
+    margin-right: 5px;
+}
+
+small{
+    display: block;
+    margin-bottom: 10px;
+}

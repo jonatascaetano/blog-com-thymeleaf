@@ -33,4 +33,9 @@ public class PostController {
         mv.addObject("post", post);
         return mv;
     }
+
+    @GetMapping(value = "/newpost")
+    public String getPostForm(){
+        return "postForm";
+    }
 }

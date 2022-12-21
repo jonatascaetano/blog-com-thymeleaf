@@ -42,3 +42,11 @@ h4.card-title:hover {
 article p.card-text {
     margin-top: 40px;
 }
+
+form div.form-group input, form div.form-group textarea {
+    margin-bottom: 10px;
+} 
+
+form button.btn {
+    margin-right: 5px;
+}

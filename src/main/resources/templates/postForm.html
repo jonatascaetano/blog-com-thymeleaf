@@ -12,6 +12,42 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
+    <header>
+        <!-- As a link -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">Blog</span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="container">
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page">
+                    <a href="/posts">Posts</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Novo Post</li>
+            </ol>
+        </nav>
+
+        <div>
+            <form method="post">
+                <div class="form-group">
+                    <input type="text" name="title" placeholder="Título *" class="form-control">
+                    <input type="text" name="author" placeholder="Autor *" class="form-control">
+                    <textarea type="text" name="body" placeholder="Texto *" cols="30" rows="10" class="form-control"></textarea>
+                    <small class="form-text text-muted">(*) campos obrigatórios</small>
+                    <button type="submit" class="btn btn-primary">Publicar</button>
+                    <a href="/posts" class="btn btn-light" role="button">Cancelar</a>
+                </div>
+            </form>
+        </div>
+
+  
+
+    </main>
     
 </body>
 </html>

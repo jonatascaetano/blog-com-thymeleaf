@@ -33,6 +33,7 @@
         </nav>
 
         <div>
+            <th:block th:include="validationMessage"> </th:block>
             <form method="post">
                 <div class="form-group">
                     <input type="text" name="title" placeholder="Título *" class="form-control">
